@@ -1,0 +1,19 @@
+@media screen and (max-width: 991px) {
+
+  #author {
+    text-align: left;
+  }
+
+  #title {
+    text-align: left;
+  }
+
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: "Quicksand", sans-serif;
+}
