@@ -1,4 +1,4 @@
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 900px) {
 
   #author {
     text-align: left;
@@ -16,4 +16,24 @@ h3,
 h4,
 p {
   font-family: "Quicksand", sans-serif;
+}
+
+p {
+  margin-top: 5px;
+}
+
+@media (max-width:991px) and (min-width:400px) {
+  .portfolio-box >  h4 {
+    text-align: center;
+  }
+  .portfolio-box > img {
+    margin: 0 auto;
+  }
+  .portfolio-box > p {
+    text-align: center;
+  }
+}
+
+@media (max-width: @screen-xs-min) {
+  .modal-xs { width: @modal-sm; }
 }
