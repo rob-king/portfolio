@@ -37,8 +37,4 @@ p {
   .portfolio-box > p {
     text-align: center;
   }
-
-
-/*@media (max: width: 400px) {
-  .portfolio-box a {
-    pointer-events:
+}
